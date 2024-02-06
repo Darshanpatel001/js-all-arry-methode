@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // sort methode in javascript
+
+        let tst=[20,23,44,55,77,88,22,11,]
+
+        let anser=tst.sort();
+        console.log(anser);
+
+        // revers methode in javascript
+
+        let nst=[22,44,33,11,66,77,88]
+
+        let nam=nst.reverse()
+        console.log(nam);
+
+        //include methode in javsscript
+
+        let nnt=[99,89,8,0,77,66,]
+
+        let rst=nnt.includes(100)
+        console.log(rst);
+
+    //index of method in javascript,
+
+    let nn=[20,33,44,5,66,778,]
+
+    let nnnt=nn.indexOf(66)
+    console.log(nnnt);
+
+    //concact metode in javascript
+
+    let aaary=[10,23,34,4,5,5,6,6,7,]
+
+    let ggt=[222,33,44,55,66,77,88,99]
+
+    let store=aaary.concat(ggt)
+    
+    console.log(store);
+
+    //sprade methode in javsscript == merge in 2 arry sam as concat
+
+    let ss=[22,23,2466,44788,55,66,77]
+    let mm=[233,443,555,66786,77,88,998]
+
+    let result=[...ss,...mm].sort()
+    
+    console.log(result);
+
+    // every and sum methode in javascript
+
+    // every methode
+
+    let aa=[9,66,77,88,44,55,66]
+
+    let sss = aa.every((val) => val > 0);
+
+      // for unch methode in javascript
+
+      let forr=[1,22,33,44,66,77,8]
+        forr.forEach((val)=>{
+            console.log(val);
+        })
+
+        
+      const date = new Date();
+      console.log(date);
+      console.log(date.getDate());
+      console.log((date.getMilliseconds));
+      console.log((date.getTimezoneOffset));
+
+        // unshift methode in javascript :- one elemnt add in first
+
+        let neww=[20,33,55,66,77,88,989]
+
+        neww.unshift(594)
+        console.log(neww);
+
+        //shift methode in javascript     :- first element index delete in use
+
+        let newww=[30,22334,43,48766]
+         newww.shift()
+         console.log(newww);
+
+
+         // importent splice methode in javascript
+         // add and remove in arry element syntax array.splice(index  ,  howmany ,, item, item...)
+
+         let sp=[330,334,4545,35,6,6,]
+         sp.splice(2,   "new","newmm","hht")
+         console.log(sp);
+
+         // slice methode in javascript  old arry remove and new  coustmise arry print
+
+         let sssp=[30,44,55,66,77,88]
+
+       let lw=  sssp.slice(0,1)
+         console.log(lw);
+
+    </script>
+</body>
+</html>
